@@ -1,7 +1,12 @@
-🔭 My main research is 5G core network.
+<h1 align="center">Hanson-Tsai</h1>
+<h3 align="center">🔭 My main research is 5G core network.</h1>
+<h3 align="center">⚡ Currently study at NYCU computer science. </h1>
 
-### ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hanson-Tsai&show_icons=true&theme=yeblu&count_private=true)
-### [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Hanson-Tsai&show_icons=true&theme=yeblu&layout=compact&exclude_repo=RaspberryPi-Fire-Detection&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+<div align="center">
+  <a href="https://github.com/Hanson-Tsai">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hanson-Tsai&show_icons=true&theme=yeblu&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hanson-Tsai&show_icons=true&theme=yeblu&layout=compact&exclude_repo=RaspberryPi-Fire-Detection&count_private=true"/>
+</div>
 
 <!--
 **Hanson-Tsai/Hanson-Tsai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
