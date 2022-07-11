@@ -4,8 +4,8 @@
 
 <div align="center">
   <a href="https://github.com/Hanson-Tsai">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hanson-Tsai&show_icons=true&theme=yeblu&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hanson-Tsai&show_icons=true&theme=yeblu&layout=compact&exclude_repo=RaspberryPi-Fire-Detection&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hanson-Tsai&show_icons=true&theme=flag-india&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hanson-Tsai&show_icons=true&theme=flag-india&layout=compact&exclude_repo=RaspberryPi-Fire-Detection&count_private=true"/>
 </div>
 
 <h2 align="center">Languages</h2>
