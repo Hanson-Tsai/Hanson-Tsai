@@ -127,22 +127,6 @@ func main() {
 
 <br/>
 
-<!-- ===================== GITHUB STATS ===================== -->
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hanson-Tsai&theme=tokyonight&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00ADD8&icon_color=2496ED&text_color=c9d1d9" alt="stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hanson-Tsai&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0D1117&title_color=00ADD8&text_color=c9d1d9&langs_count=8" alt="top langs"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hanson-Tsai&theme=tokyonight&hide_border=true&background=0D1117&ring=00ADD8&fire=2496ED&currStreakLabel=00ADD8" alt="streak"/>
-
-</div>
-
-<br/>
-
 <!-- ===================== ACTIVITY GRAPH ===================== -->
 ## 📈 Contribution Graph
 
@@ -158,17 +142,6 @@ func main() {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hanson-Tsai/Hanson-Tsai/output/github-contribution-grid-snake.svg"/>
   <img src="https://raw.githubusercontent.com/Hanson-Tsai/Hanson-Tsai/output/github-contribution-grid-snake.svg" width="98%" alt="snake animation"/>
 </picture>
-
-</div>
-
-<br/>
-
-<!-- ===================== TROPHIES ===================== -->
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Hanson-Tsai&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" width="98%" alt="trophies"/>
 
 </div>
 
