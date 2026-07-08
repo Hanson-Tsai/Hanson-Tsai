@@ -122,8 +122,8 @@ func main() {
 
 | Paper | Venue | Contribution |
 |-------|-------|--------------|
-| **X-IO** — Unified I/O Interface using Lock-free Shared Memory | IEEE **NetSoft 2023** | Lock-free, zero-copy shared-memory I/O in C + DPDK → **4.1× throughput** |
-| **L25GC+** — 3GPP-compliant Low-latency 5G Core | IEEE **CloudNet 2023** | DPDK shared-memory stack for Go microservices → **1.61× lower** control-plane latency |
+| [**X-IO** — Unified I/O Interface using Lock-free Shared Memory](https://ieeexplore.ieee.org/document/10175428) | IEEE **NetSoft 2023** | Lock-free, zero-copy shared-memory I/O in C + DPDK → **4.1× throughput** |
+| [**L25GC+** — 3GPP-compliant Low-latency 5G Core](https://ieeexplore.ieee.org/document/10490024) | IEEE **CloudNet 2023** | DPDK shared-memory stack for Go microservices → **1.61× lower** control-plane latency |
 
 <br/>
 
