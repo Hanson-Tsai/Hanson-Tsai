@@ -1,19 +1,24 @@
 <!-- ===================== HEADER BANNER ===================== -->
 <a href="https://github.com/Hanson-Tsai">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Hanson%20Tsai&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=5G%20Core%20%C2%B7%20Systems%20%C2%B7%20NYCU%20CS&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Hanson Tsai banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Cloud-Native%20%C2%B7%20High-Performance%20Networking%20%C2%B7%20Systems%20Engineer&descAlignY=60&descSize=17&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
 </a>
 
 <!-- ===================== TYPING SUBTITLE ===================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=650&lines=Building+the+5G+core+with+free5GC;Systems+%26+Network+Software+Engineer;Go+%C2%B7+C%2B%2B+%C2%B7+Python+%C2%B7+Linux;CS+%40+National+Yang+Ming+Chiao+Tung+University)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=720&lines=Software+Engineer+%40+Saviah+Technologies;Building+high-availability+cloud-native+platforms;Go+%C2%B7+C+%C2%B7+DPDK+%C2%B7+eBPF+%C2%B7+Kubernetes;5G+core+%26+high-performance+networking)](https://git.io/typing-svg)
 
-<!-- ===================== SOCIAL / VISITORS ===================== -->
+<!-- ===================== SOCIAL / BADGES ===================== -->
+<a href="https://linkedin.com/in/tsai-han-sing">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:jerry10127@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<img src="https://img.shields.io/badge/Hsinchu%2C%20Taiwan-2496ED?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
 <a href="https://github.com/Hanson-Tsai">
   <img src="https://komarev.com/ghpvc/?username=Hanson-Tsai&label=Profile%20Views&color=00ADD8&style=for-the-badge" alt="Profile views"/>
 </a>
-<img src="https://img.shields.io/badge/Focus-5G%20Core%20Network-00599C?style=for-the-badge" alt="Focus"/>
-<img src="https://img.shields.io/badge/Based%20in-Taiwan-2496ED?style=for-the-badge" alt="Location"/>
 
 </div>
 
@@ -28,29 +33,36 @@ package main
 import "fmt"
 
 type Engineer struct {
-    Name     string
-    Role     string
-    School   string
-    Working  string
-    Learning []string
+    Name       string
+    Role       string
+    Company    string
+    Location   string
+    Experience string
+    Expertise  []string
 }
 
 func main() {
     me := Engineer{
-        Name:     "Hanson Tsai",
-        Role:     "Systems & Network Software Engineer",
-        School:   "NYCU · Computer Science",
-        Working:  "free5GC — an open-source 5G core network",
-        Learning: []string{"Cloud-Native 5G", "Distributed Systems", "eBPF"},
+        Name:       "Han-Sing Tsai",
+        Role:       "Software Engineer",
+        Company:    "Saviah Technologies Inc.",
+        Location:   "Hsinchu, Taiwan",
+        Experience: "3+ years",
+        Expertise: []string{
+            "Cloud-Native Platforms", "Bare-metal Kubernetes",
+            "High-Performance Networking (DPDK, eBPF)",
+            "High-Availability & Failover Systems",
+        },
     }
     fmt.Printf("%+v\n", me)
 }
 ```
 
-- 🔭 &nbsp;Currently building the **5G core network** with [**free5GC**](https://github.com/free5gc/free5gc)
-- 🌱 &nbsp;Studying **Computer Science** at **National Yang Ming Chiao Tung University (NYCU)**
-- ⚡ &nbsp;Into **systems programming, networking, and cloud-native infrastructure**
-- 📫 &nbsp;Reach me at **hs.tsai@saviah.com**
+- 🏗️ &nbsp;Building **high-availability, cloud-native platforms** on bare-metal & on-prem **Kubernetes**
+- ⚡ &nbsp;Deep into **system-level networking** — architecting resilient solutions that survive infrastructure failures
+- 🔬 &nbsp;Published researcher in **5G core networks** & **high-performance I/O** (IEEE NetSoft & CloudNet, 2023)
+- 🎓 &nbsp;**M.S. Computer Science**, National Yang Ming Chiao Tung University (NYCU)
+- 📫 &nbsp;Reach me at **jerry10127@gmail.com**
 
 <br/>
 
@@ -62,24 +74,56 @@ func main() {
 **Languages**
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-**Systems & Infra**
+**Networking & Systems**
 
+![DPDK](https://img.shields.io/badge/DPDK-0071C5?style=for-the-badge&logo=intel&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-FF6600?style=for-the-badge&logo=linux&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=google&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**Infrastructure & DevOps**
+
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-**ML / Data**
+**Databases & Storage**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 </div>
+
+<br/>
+
+<!-- ===================== EXPERIENCE ===================== -->
+## 💼 Experience Highlights
+
+> **Software Engineer** · Saviah Technologies Inc. · *Aug 2023 – Present*
+
+- 🚀 &nbsp;Architected a **failover orchestration Kubernetes operator** — cut service recovery **7.2×** (180s → 25s) at **99.9% availability** for **50k+** concurrent sessions
+- ⚡ &nbsp;Built an **eBPF-based load-balancing dataplane** — reduced worst-case rerouting latency **90%** (10s → 1s) during control-plane failures
+- 🌐 &nbsp;Designed a **topology management system** (RESTful APIs) serving **100k+** subscribers across **10+** edge nodes
+- 🔧 &nbsp;Automated the full infra lifecycle with an **Ansible** framework standardizing **100+** production environments
+- 🧪 &nbsp;Built a **CI/CD stress-testing platform** simulating **10k+** sessions, used by a **20+** engineer team to catch SLO regressions
+
+<br/>
+
+<!-- ===================== PUBLICATIONS ===================== -->
+## 📚 Research & Publications
+
+| Paper | Venue | Contribution |
+|-------|-------|--------------|
+| **X-IO** — Unified I/O Interface using Lock-free Shared Memory | IEEE **NetSoft 2023** | Lock-free, zero-copy shared-memory I/O in C + DPDK → **4.1× throughput** |
+| **L25GC+** — 3GPP-compliant Low-latency 5G Core | IEEE **CloudNet 2023** | DPDK shared-memory stack for Go microservices → **1.61× lower** control-plane latency |
 
 <br/>
 
@@ -124,7 +168,14 @@ func main() {
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
 
-### 💬 Let's connect and build cool systems together!
+### 💬 Let's build resilient systems together!
+
+<a href="https://linkedin.com/in/tsai-han-sing">
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:jerry10127@gmail.com">
+  <img src="https://img.shields.io/badge/Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2496ED,50:00ADD8,100:00599C&height=120&section=footer" width="100%" alt="footer"/>
 
