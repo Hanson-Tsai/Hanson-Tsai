@@ -6,7 +6,7 @@
 <!-- ===================== TYPING SUBTITLE ===================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=760&lines=I+design+architectures+that+slash+RTO;Building+high-availability%2C+resilient+platforms;Failover+orchestration+%C2%B7+eBPF+%C2%B7+Kubernetes;Software+Engineer+%40+Saviah+Technologies)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=760&lines=Building+high-availability%2C+resilient+systems;Designing+high-performance+networks+with+DPDK+%26+eBPF;Failover+orchestration+that+slashes+RTO;Software+Engineer+%40+Saviah+Technologies)](https://git.io/typing-svg)
 
 <!-- ===================== SOCIAL / BADGES ===================== -->
 <a href="https://linkedin.com/in/tsai-han-sing">
