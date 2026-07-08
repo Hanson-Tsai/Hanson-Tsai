@@ -1,6 +1,6 @@
 <!-- ===================== HEADER BANNER ===================== -->
 <a href="https://github.com/Hanson-Tsai">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=High-Availability%20Systems%20%C2%B7%20Architecting%20to%20Slash%20RTO&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=High-Availability%20Systems%20%C2%B7%20High-Performance%20Networks&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
 </a>
 
 <!-- ===================== TYPING SUBTITLE ===================== -->
