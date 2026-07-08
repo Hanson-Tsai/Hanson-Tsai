@@ -4,11 +4,10 @@ on:
   # Run automatically every 12 hours
   schedule:
     - cron: "0 */12 * * *"
-  # Run on every push to the default branch (and the design branch, for previews)
+  # Run on every push to the default branch
   push:
     branches:
       - main
-      - claude/github-profile-design-8ri88i
   # Allow manual runs from the Actions tab
   workflow_dispatch:
 
