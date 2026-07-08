@@ -1,12 +1,12 @@
 <!-- ===================== HEADER BANNER ===================== -->
 <a href="https://github.com/Hanson-Tsai">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Cloud-Native%20%C2%B7%20High-Performance%20Networking%20%C2%B7%20Systems%20Engineer&descAlignY=60&descSize=17&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=High-Availability%20Systems%20%C2%B7%20Architecting%20to%20Slash%20RTO&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
 </a>
 
 <!-- ===================== TYPING SUBTITLE ===================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=720&lines=Software+Engineer+%40+Saviah+Technologies;Building+high-availability+cloud-native+platforms;Go+%C2%B7+C+%C2%B7+DPDK+%C2%B7+eBPF+%C2%B7+Kubernetes;5G+core+%26+high-performance+networking)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=760&lines=I+design+architectures+that+slash+RTO;Building+high-availability%2C+resilient+platforms;Failover+orchestration+%C2%B7+eBPF+%C2%B7+Kubernetes;Software+Engineer+%40+Saviah+Technologies)](https://git.io/typing-svg)
 
 <!-- ===================== SOCIAL / BADGES ===================== -->
 <a href="https://linkedin.com/in/tsai-han-sing">
