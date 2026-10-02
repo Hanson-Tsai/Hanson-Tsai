@@ -27,28 +27,9 @@
 <!-- ===================== ABOUT ME ===================== -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🚀 Now
-**Software Engineer** @ **Phison Electronics**<br/>
-Hyper-Converged Infrastructure (HCI) team · *since Sep 2026*
-
-Building an on-prem **AI infrastructure** platform that brings compute, storage, and LLM inference together on **Kubernetes**.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 Background
-**3+ years** building high-availability, cloud-native platforms on **bare-metal Kubernetes**, plus high-performance networking with **DPDK** and **eBPF**.
-
-📍 Hsinchu, Taiwan<br/>
-🎓 M.S. Computer Science, **NYCU**
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="assets/about-card.svg" width="100%" alt="Software Engineer @ Phison Electronics: Hyper-Converged Infrastructure (HCI), building AI infrastructure since Sep 2026"/>
+</div>
 
 **What I work on**
 

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="470" viewBox="0 0 880 470" role="img" aria-label="Han-Sing Tsai: Software Engineer at Phison Electronics, Hyper-Converged Infrastructure team, building AI infrastructure since Sep 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0B1E33"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00599C"/>
+      <stop offset="0.5" stop-color="#00ADD8"/>
+      <stop offset="1" stop-color="#A371F7"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ADD8"/>
+      <stop offset="1" stop-color="#A371F7"/>
+    </linearGradient>
+    <linearGradient id="track" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="800" y2="0">
+      <stop offset="0" stop-color="#00599C"/>
+      <stop offset=".5" stop-color="#00ADD8"/>
+      <stop offset="1" stop-color="#A371F7"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="stackClip"><rect x="470" y="78" width="380" height="226" rx="8"/></clipPath>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .label { font-size: 11px; letter-spacing: 2px; fill: #7D8590; font-weight: 600; }
+      .chip { font-size: 12px; fill: #C9D1D9; }
+      .layer { font-size: 12.5px; fill: #E6EDF3; }
+      .layer b, .lname { font-weight: 700; }
+      .fade { opacity: 0; animation: in .8s ease-out forwards; }
+      @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+      .draw { stroke-dasharray: 760; stroke-dashoffset: 760; animation: draw 2.4s ease-out .6s forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="2" y="2" width="876" height="466" rx="18" fill="url(#bg)"/>
+  <rect x="2" y="2" width="876" height="466" rx="18" fill="url(#grid)"/>
+  <rect x="2" y="2" width="876" height="466" rx="18" fill="none" stroke="url(#border)" stroke-width="2"/>
+
+  <!-- ============ LEFT: NOW ============ -->
+  <g class="fade" style="animation-delay:.1s">
+    <circle cx="40" cy="52" r="5" fill="#3FB950"/>
+    <circle cx="40" cy="52" r="5" fill="none" stroke="#3FB950" stroke-width="2">
+      <animate attributeName="r" values="5;13" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="54" y="56" class="label" fill="#3FB950" style="fill:#3FB950">CURRENTLY</text>
+  </g>
+
+  <g class="fade" style="animation-delay:.25s">
+    <text x="32" y="112" font-size="34" font-weight="800" fill="#FFFFFF">Software Engineer</text>
+    <text x="32" y="150" font-size="26" font-weight="700" fill="url(#accent)">@ Phison Electronics</text>
+  </g>
+
+  <g class="fade" style="animation-delay:.4s">
+    <text x="32" y="186" font-size="15" fill="#C9D1D9"><tspan font-weight="700" fill="#FFFFFF">HCI</tspan> · Hyper-Converged Infrastructure</text>
+    <text x="32" y="210" font-size="15" fill="#8B949E">Building on-prem <tspan fill="#00ADD8" font-weight="700">AI infrastructure</tspan> on Kubernetes</text>
+  </g>
+
+  <g class="fade" style="animation-delay:.55s">
+    <rect x="32"  y="232" width="112" height="28" rx="14" fill="#00ADD8" fill-opacity=".12" stroke="#00ADD8" stroke-opacity=".5"/>
+    <text x="88"  y="250" class="chip" text-anchor="middle">LLM Inference</text>
+    <rect x="152" y="232" width="104" height="28" rx="14" fill="#A371F7" fill-opacity=".12" stroke="#A371F7" stroke-opacity=".5"/>
+    <text x="204" y="250" class="chip" text-anchor="middle">GPU Sharing</text>
+    <rect x="264" y="232" width="150" height="28" rx="14" fill="#F85149" fill-opacity=".12" stroke="#F85149" stroke-opacity=".5"/>
+    <text x="339" y="250" class="chip" text-anchor="middle">Hyper-Converged HA</text>
+  </g>
+
+  <g class="fade" style="animation-delay:.7s">
+    <text x="32" y="292" class="mono" font-size="12.5" fill="#7D8590">since <tspan fill="#E6EDF3">Sep 2026</tspan>  ·  <tspan fill="#E6EDF3">Hsinchu, Taiwan</tspan></text>
+  </g>
+
+  <!-- ============ RIGHT: STACK ============ -->
+  <text x="470" y="56" class="label">THE STACK I BUILD ON</text>
+
+  <!-- request packet travelling down the stack -->
+  <line x1="458" y1="82" x2="458" y2="300" stroke="#30363D" stroke-width="2" stroke-dasharray="3 4"/>
+  <circle cx="458" cy="82" r="4" fill="#00ADD8" filter="url(#glow)">
+    <animate attributeName="cy" values="82;300" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g clip-path="url(#stackClip)">
+    <!-- Entry -->
+    <g class="fade" style="animation-delay:.3s">
+      <rect x="470" y="78" width="380" height="38" rx="8" fill="#8B949E" fill-opacity=".10"/>
+      <rect x="470" y="78" width="4" height="38" fill="#8B949E"/>
+      <text x="486" y="102" class="layer"><tspan class="lname" fill="#C9D1D9">Entry</tspan><tspan fill="#7D8590">  ·  Cilium LB · kube-vip · envoy-gateway</tspan></text>
+    </g>
+    <!-- Platform -->
+    <g class="fade" style="animation-delay:.45s">
+      <rect x="470" y="124" width="380" height="38" rx="8" fill="#388BFD" fill-opacity=".13"/>
+      <rect x="470" y="124" width="4" height="38" fill="#388BFD"/>
+      <text x="486" y="148" class="layer"><tspan class="lname" fill="#79C0FF">Platform</tspan><tspan fill="#7D8590">  ·  Keycloak · Harbor · KubeVirt</tspan></text>
+    </g>
+    <!-- AI + Storage -->
+    <g class="fade" style="animation-delay:.6s">
+      <rect x="470" y="170" width="214" height="38" rx="8" fill="#A371F7" fill-opacity=".16"/>
+      <rect x="470" y="170" width="4" height="38" fill="#A371F7"/>
+      <text x="486" y="194" class="layer"><tspan class="lname" fill="#D2A8FF">AI</tspan><tspan fill="#7D8590">  ·  KServe · vLLM · llm-d</tspan></text>
+      <rect x="692" y="170" width="158" height="38" rx="8" fill="#F85149" fill-opacity=".13"/>
+      <rect x="692" y="170" width="4" height="38" fill="#F85149"/>
+      <text x="708" y="194" class="layer"><tspan class="lname" fill="#FFA198">Storage</tspan><tspan fill="#7D8590">  ·  Ceph</tspan></text>
+    </g>
+    <!-- Infra -->
+    <g class="fade" style="animation-delay:.75s">
+      <rect x="470" y="216" width="380" height="38" rx="8" fill="#00ADD8" fill-opacity=".12"/>
+      <rect x="470" y="216" width="4" height="38" fill="#00ADD8"/>
+      <text x="486" y="240" class="layer"><tspan class="lname" fill="#56D4F5">Kubernetes</tspan><tspan fill="#7D8590">  ·  RKE2 · flux · HAMi · cert-manager</tspan></text>
+    </g>
+    <!-- Hosts -->
+    <g class="fade" style="animation-delay:.9s">
+      <rect x="470.5" y="262.5" width="379" height="37" rx="8" fill="none" stroke="#3FB950" stroke-opacity=".6" stroke-dasharray="4 4"/>
+      <text x="486" y="286" class="layer"><tspan class="lname" fill="#7EE787">Hosts</tspan><tspan fill="#7D8590">  ·  NVIDIA GPU · Phison ai100 NVMe</tspan></text>
+    </g>
+    <!-- sheen sweeping over the stack -->
+    <rect x="-200" y="78" width="160" height="226" fill="url(#sheen)">
+      <animate attributeName="x" values="300;900" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ============ BOTTOM: TIMELINE ============ -->
+  <line x1="32" y1="330" x2="848" y2="330" stroke="#21262D"/>
+  <text x="32" y="362" class="label">JOURNEY</text>
+
+  <line x1="80" y1="400" x2="800" y2="400" stroke="#30363D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="80" y1="400" x2="800" y2="400" stroke="url(#track)" stroke-width="3" stroke-linecap="round" class="draw"/>
+
+  <!-- NYCU -->
+  <g class="fade" style="animation-delay:.8s">
+    <circle cx="120" cy="400" r="7" fill="#0D1117" stroke="#00599C" stroke-width="3"/>
+    <text x="120" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">NYCU</text>
+    <text x="120" y="426" text-anchor="middle" font-size="12" fill="#8B949E">M.S. Computer Science</text>
+    <text x="120" y="443" text-anchor="middle" font-size="12" fill="#8B949E">IEEE NetSoft · CloudNet '23</text>
+  </g>
+  <!-- Saviah -->
+  <g class="fade" style="animation-delay:1.4s">
+    <circle cx="440" cy="400" r="7" fill="#0D1117" stroke="#00ADD8" stroke-width="3"/>
+    <text x="440" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Saviah Technologies</text>
+    <text x="440" y="426" text-anchor="middle" font-size="12" fill="#8B949E">2023 – 2026</text>
+    <text x="440" y="443" text-anchor="middle" font-size="12" fill="#8B949E">HA failover · eBPF · bare-metal K8s</text>
+  </g>
+  <!-- Phison -->
+  <g class="fade" style="animation-delay:2s">
+    <circle cx="760" cy="400" r="7" fill="#A371F7"/>
+    <circle cx="760" cy="400" r="7" fill="none" stroke="#A371F7" stroke-width="2">
+      <animate attributeName="r" values="7;16" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="760" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">Phison Electronics</text>
+    <text x="760" y="426" text-anchor="middle" font-size="12" fill="#D2A8FF">2026 – now</text>
+    <text x="760" y="443" text-anchor="middle" font-size="12" fill="#8B949E">HCI · AI infrastructure</text>
+  </g>
+</svg>
