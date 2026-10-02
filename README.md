@@ -1,12 +1,12 @@
 <!-- ===================== HEADER BANNER ===================== -->
 <a href="https://github.com/Hanson-Tsai">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=High-Availability%20Systems%20%C2%B7%20High-Performance%20Networks&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,50:00ADD8,100:2496ED&height=220&section=header&text=Han-Sing%20Tsai&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=AI%20Infrastructure%20%C2%B7%20High-Availability%20Systems%20%C2%B7%20High-Performance%20Networks&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Han-Sing Tsai banner"/>
 </a>
 
 <!-- ===================== TYPING SUBTITLE ===================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=760&lines=Building+high-availability%2C+resilient+systems;Designing+high-performance+networks+with+DPDK+%26+eBPF;Failover+orchestration+that+slashes+RTO;Software+Engineer+%40+Saviah+Technologies)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=760&lines=Building+AI+infrastructure+%40+Phison+HCI;Building+high-availability%2C+resilient+systems;Designing+high-performance+networks+with+DPDK+%26+eBPF;Failover+orchestration+that+slashes+RTO)](https://git.io/typing-svg)
 
 <!-- ===================== SOCIAL / BADGES ===================== -->
 <a href="https://linkedin.com/in/tsai-han-sing">
@@ -27,41 +27,17 @@
 <!-- ===================== ABOUT ME ===================== -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
 
-```go
-package main
+<div align="center">
+  <img src="assets/about-card.svg" width="100%" alt="Software Engineer @ Phison Electronics: Hyper-Converged Infrastructure (HCI), building AI infrastructure since Sep 2026"/>
+</div>
 
-import "fmt"
+**What I work on**
 
-type Engineer struct {
-    Name       string
-    Role       string
-    Company    string
-    Location   string
-    Experience string
-    Expertise  []string
-}
-
-func main() {
-    me := Engineer{
-        Name:       "Han-Sing Tsai",
-        Role:       "Software Engineer",
-        Company:    "Saviah Technologies Inc.",
-        Location:   "Hsinchu, Taiwan",
-        Experience: "3+ years",
-        Expertise: []string{
-            "Cloud-Native Platforms", "Bare-metal Kubernetes",
-            "High-Performance Networking (DPDK, eBPF)",
-            "High-Availability & Failover Systems",
-        },
-    }
-    fmt.Printf("%+v\n", me)
-}
-```
-
-- 🏗️ &nbsp;Building **high-availability, cloud-native platforms** on bare-metal & on-prem **Kubernetes**
-- ⚡ &nbsp;Deep into **system-level networking** — architecting resilient solutions that survive infrastructure failures
-- 🔬 &nbsp;Published researcher in **5G core networks** & **high-performance I/O** (IEEE NetSoft & CloudNet, 2023)
-- 🎓 &nbsp;**M.S. Computer Science**, National Yang Ming Chiao Tung University (NYCU)
+- 🤖 &nbsp;**AI Infrastructure**: LLM serving, GPU scheduling & sharing, multi-node inference
+- 🧱 &nbsp;**Hyper-Converged Platforms**: compute, storage, and VMs on one Kubernetes stack
+- 🛡️ &nbsp;**High Availability**: failover orchestration that survives infrastructure failures
+- ⚡ &nbsp;**High-Performance Networking**: DPDK, eBPF, zero-copy I/O
+- 🔬 &nbsp;**Research**: published work on 5G core networks & high-performance I/O (IEEE NetSoft & CloudNet, 2023)
 - 📫 &nbsp;Reach me at **jerry10127@gmail.com**
 
 <br/>
@@ -85,6 +61,15 @@ func main() {
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=google&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+**AI Infrastructure**
+
+![KServe](https://img.shields.io/badge/KServe-0F62FE?style=for-the-badge&logo=kubeflow&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-30A2FF?style=for-the-badge&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA%20GPU-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Ceph](https://img.shields.io/badge/Rook%20Ceph-EF5C55?style=for-the-badge&logo=ceph&logoColor=white)
+![KubeVirt](https://img.shields.io/badge/KubeVirt-00AAB2?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Cilium](https://img.shields.io/badge/Cilium-F8C517?style=for-the-badge&logo=cilium&logoColor=black)
+
 **Infrastructure & DevOps**
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -107,7 +92,14 @@ func main() {
 <!-- ===================== EXPERIENCE ===================== -->
 ## 💼 Experience Highlights
 
-> **Software Engineer** · Saviah Technologies Inc. · *Aug 2023 – Present*
+> **Software Engineer** · Phison Electronics · Hyper-Converged Infrastructure (HCI) · *Sep 2026 – Present*
+
+- 🧱 &nbsp;Building Phison's **HCI platform**, an on-prem **Kubernetes** stack (RKE2, Cilium, kube-vip, envoy-gateway) unifying compute, storage, and AI inference
+- 🤖 &nbsp;Working on the **AI inference layer**: KServe, llm-d & vLLM, multi-node inference with leader-worker-set, and GPU sharing with HAMi
+- 💾 &nbsp;Integrating **Rook Ceph** storage and **aiDAPTIV+** KV-cache tiering on Phison ai100 NVMe
+- 🏢 &nbsp;Supporting a **multi-tenant platform** with Keycloak SSO, KubeVirt VMs, and managed external clusters
+
+> **Software Engineer** · Saviah Technologies Inc. · *Aug 2023 – Aug 2026*
 
 - 🚀 &nbsp;Architected a **failover orchestration Kubernetes operator** — cut service recovery **7.2×** (180s → 25s) at **99.9% availability** for **50k+** concurrent sessions
 - ⚡ &nbsp;Built an **eBPF-based load-balancing dataplane** — reduced worst-case rerouting latency **90%** (10s → 1s) during control-plane failures
